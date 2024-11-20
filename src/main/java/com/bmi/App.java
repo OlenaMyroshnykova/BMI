@@ -1,17 +1,9 @@
 package com.bmi;
 
-/**
- * Hello world!
- */
-public final class App {
-    private App() {
-    }
+import com.bmi.controller.BMIController;
 
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
+public final class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        BMIController.start(args);
     }
 }
